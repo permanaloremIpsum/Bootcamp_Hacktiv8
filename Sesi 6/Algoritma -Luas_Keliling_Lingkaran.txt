@@ -1,0 +1,19 @@
+# Algoritma Luas_Keliling_Lingkaran
+
+Deklarasi :
+- Deklarasi variabel phi
+- Deklarasi variabel jari-jari
+- Deklarasi variabel Luas
+- Deklarasi variabel Keliling
+
+Input :
+- Memasukkan nilai 3.14 kedalam variabel phi
+- Memasukkan nilai inputan user kedalam variabel jari-jari
+
+Proses :
+- Menghitung Luas dengan phi dikali jari-jari dikali jari-jari
+- Menghitung Keliling dengan 2 dikali phi dikali jari-jari
+
+Output :
+- Menampilkan nilai Luas
+- Menampilkan nilai Keliling

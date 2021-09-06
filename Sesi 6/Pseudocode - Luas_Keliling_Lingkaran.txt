@@ -1,0 +1,12 @@
+# Pseudocode Luas_Keliling_Lingkaran
+
+STORE "phi" to 3.14
+STORE "R" with any value
+STORE "Luas" without any value
+STORE "Keliling" without any value
+CALCULATE "phi" times "R" times "R"
+SET "Luas" value with calculation result
+CALCULATE 2 times "phi" times "R"
+SET "Keliling" value with calculation result
+DISPLAY "Luas"
+DISPLAY "Keliling"
