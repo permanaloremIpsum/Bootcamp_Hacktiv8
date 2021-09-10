@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi 8</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <navbar class="nav">
+        <ul>
+            <li><a href="#" class="link-nav">HOME</a></li>
+            <li><a href="#" class="link-nav">PRODUCT</a></li>
+            <li><a href="#" class="link-nav">GALLERY</a></li>
+            <li><a href="#" class="link-nav">BLOG</a></li>
+            <li><a href="#" class="link-nav">INVENTORY</a></li>
+        </ul>
+    </navbar>
+
+    <div class="info">
+        <img src="./img/pp.jpg" alt="Foto Profil" class="img-profil">
+        <div class="container-profil">
+            <h2 id="name">Nama Anda</h2>
+            <p id="role" class="text-sub">Front End Designer</p>
+            <button id="btn-edit" class="btn-kontak">Edit</button>
+            <button class="btn-resume">Resume</button>
+        </div>
+        <div class="container-info">
+            <div class="text-group">
+                <p class="text-info">Avaliability <span id="avaliability" class="sub-info">Full Time</span></p>
+            </div>
+            <div class="text-group">
+                <p class="text-info">Usia <span id="age" class="sub-info">17</span></p>
+            </div>
+            <div class="text-group">
+                <p class="text-info">Lokasi <span id="location" class="sub-info">Jakarta, Indonesia</span></p>
+            </div>
+            <div class="text-group">
+                <p class="text-info">Pengalaman <span id="experience" class="sub-info">2</span></p>
+            </div>
+            <div class="text-group">
+                <p class="text-info">Email <span id="email" class="sub-info">developer@gmail.com</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <form id="form-portfolio" action="" method="POST">
+            <div class="input-group">
+                <label for="inputName">Nama</label>
+                <input type="text" name="name" id="inputName" required><br>
+                <small class="text-validation"></small>
+            </div>
+            <div class="input-group">
+                <label for="inputRole">Role</label>
+                <input type="text" name="role" id="inputRole" required><br>
+                <small class="text-validation"></small>
+            </div>
+            <div class="input-group">
+                <label for="inputAvaliability">Avaliability</label>
+                <input type="text" name="avaliability" id="inputAvaliability" required><br>
+                <small class="text-validation"></small>
+            </div>
+            <div class="input-group">
+                <label for="inputAge">Usia</label>
+                <input type="text" name="age" id="inputAge" required><br>
+                <small class="text-validation"></small>
+            </div>
+            <div class="input-group">
+                <label for="inputLocation">Lokasi</label>
+                <input type="text" name="location" id="inputLocation" required><br>
+                <small class="text-validation"></small>
+            </div>
+            <div class="input-group">
+                <label for="inputExperience">Year Experience</label>
+                <input type="text" name="experience" id="inputExperience" required><br>
+                <small class="text-validation"></small>
+            </div>
+            <div class="input-group">
+                <label for="inputEmail">Email</label>
+                <input type="text" name="email" id="inputEmail" required><br>
+                <small class="text-validation"></small>
+            </div>
+            <button type="submit" id="btn-submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
