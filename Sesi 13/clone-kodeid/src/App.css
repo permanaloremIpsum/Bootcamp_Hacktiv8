@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .sidenav-overlay {
+  opacity: 0 !important;
+} */
+
+.container {
+  width: 85% !important;
+}
+
+img.logo {
+  height: auto;
+  width: 95px;
+  margin-top: 10px;
+}
+
+.banner {
+  background: linear-gradient(rgba(57,70,84,0.51), rgba(57,70,84,0.51)), url("./images/banner-kode.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 450px;
+}
+
+.card-product {
+  transition: 0.3s !important;
+}
+
+.card-product:hover{
+  margin-top: -10px;
+  transition: 0.3s;
+  box-shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px 5px -3px rgb(0 0 0 / 20%);
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.card-content {
+  color: #394654 !important;
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.card-detail-row {
+  display: flex;
+   flex-direction: row;
+  justify-content: space-between;
+}
+
+.instructor {
+  color: #9ba2a9;
+  font-weight: 400;
+}
+
+.price {
+  color: #9ba2a9;
+  font-weight: 700;
+}
+
+.col {
+  margin-bottom: 20px;
+}
+
+.btn {
+  box-shadow: none !important;
+  text-transform: none !important;
+  border-radius: 18px !important;
+}
+
+.btn-large {
+  text-transform: none !important;
+  border-radius: 27px !important;
+}
+
+.input-field  {
+  margin-right: -40px !important;
+}
+
+/* Banner */
+#review{
+  background-image: url("./images/foto.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 450px;
+}
+#button{
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.footstyle a{
+  color:white;
+  padding: 20px;
+}
+
+footer ul li{
+  display: inline;
+}
+
+@media(max-width:800px){
+  footer ul li{
+    display: block;
+  }
+}
+
+.ficon i{
+  margin-left: 20px;
+  margin-top: 20px;
+}
