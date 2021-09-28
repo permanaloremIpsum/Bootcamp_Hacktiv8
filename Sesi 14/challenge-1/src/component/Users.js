@@ -1,10 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {
-  // BrowserRouter as Router,
-  Link
-} from "react-router-dom";
-import Header from './Header';
-import Footer from './Footer';
+import { useHistory } from "react-router-dom";
 
 function Users(){
   const [users, setUsers] = useState([])
@@ -14,12 +9,17 @@ function Users(){
     .then((response) => response.json())
     .then((data) => setUsers(data))
   })
+
+  let history = useHistory();
+
+  function handleClick() {
+    history.push("/");
+  }
   
   return(
-    <>
-      <Header/>
+    <div>
       <div className="container">
-        <Link to="/" className="btn btn-success btn mb-3" role="button">Back to Home</Link>
+        <a href="/" className="btn btn-success btn mb-3" role="button" onClick={handleClick}>Back to Home</a>
         <table className="table table-striped">
           <thead>
             <tr className="table-dark">
@@ -41,8 +41,7 @@ function Users(){
           </tbody>
         </table>
       </div>
-      <Footer/>
-    </>
+    </div>
   )
 }
 

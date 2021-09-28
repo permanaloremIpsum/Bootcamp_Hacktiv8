@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test('Render halaman home dengan benar', () => {
+test('Render halaman Home dengan benar', () => {
   render(<App />);
 
   // mencari text tertentu

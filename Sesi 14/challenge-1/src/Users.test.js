@@ -1,7 +1,7 @@
 import { render, screen, waitFor } from '@testing-library/react';
 import Users from './component/Users';
 
-test('Render halaman home dengan benar', async () => {
+test('Render halaman User dengan benar', async () => {
   render(<Users />);
 
   // mencari button tertentu
