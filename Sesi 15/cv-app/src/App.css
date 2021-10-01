@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-sidebar {
+  background-color: #C4868F;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.img-fluid {
+  border-radius: 50%;
+  margin-bottom: 25px;
+  border: 3px solid #D8C9DF;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #D8C9DF;
+  font-weight: 700;
+}
+
+.nav-link:hover{
+  color: #ffffff;
+}
+
+.active{
+  color: #ffffff;
+}
+
+.sticky-top {
+  top: 15% !important;
+}
+
+section {
+  max-height: 100vh;
+  margin: auto 0;
+}
+
+.about, .experience, .skills, .awards, .portfolio {
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+
+.education {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.interest {
+  margin: 250px 0;
+}
+
+h1.title {
+  color: #313131;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.title-2, .contact-2 {
+  color: #C4868F;
+}
+
+.contact {
+  margin-bottom: 25px;
+}
+
+/* .social-list {
+  display: inline-block;
+} */
+
+.icon-sosmed {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #313131;
+  color: #fff;
+  padding: 10px 15px 15px 15px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.icon-sosmed:hover {
+  color: #fff;
+}
+
+.box-experience, .box-education {
+  margin-top: 50px;
+}
+
+.title-exp {
+  font-size: 1.3rem;
+}
+
+.company-exp {
+  font-size: 1.25rem;
+  color: #9a8f9e;
+  margin-bottom: 20px;
+}
+
+.date-exp {
+  font-size: 1.15rem;
+  color: #C4868F;
+  font-weight: 700;
+}
+
+.sub-title {
+  color: #9a8f9e;
+  text-transform: uppercase;
+}
+
+.icon-skill {
+  color: #3B9354;
+}
+
+.text-skill, .text-awards {
+  color: #313131;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.text-level, .text-link {
+  margin-left: 5px;
+  transition: .3s;
+  color: #9a8f9e;
+  font-weight: 400 !important;
+}
+
+.icon-awards {
+  color: #ebac4e;
+  margin-left: 20px;
+}
+
+.text-link:hover {
+  color: #9a8f9e !important;
+  font-weight: 700 !important;
+}
+
+.active {
+  color: #fff;
+  font-weight: 700;
+  background-color: #a06c73 !important;
+}
